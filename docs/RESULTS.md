@@ -42,9 +42,11 @@ cutoffs 5 / 21 / 84):
 ## Notes
 - Reads were downsampled for a RAM-safe run on a shared 64 GB server
   (HiFi ~89x -> ~28x; Hi-C ~165x -> ~30x).
-- BUSCO was **not run inside the pipeline**: on the fragmented *alternate* contigs
-  its miniprot gene-aligner expanded into pathological multi-mapping and did not
-  finish (a known issue for repetitive haplotigs). Genome completeness is instead
-  reported via Merqury k-mer completeness above; a standalone BUSCO on the primary
-  scaffolds can be added separately.
+- **BUSCO (gene completeness) was not completed.** The pipeline's BUSCO (v6, miniprot
+  gene-finder) expanded into pathological multi-mapping on this genome and did not
+  finish within many hours, both inside the pipeline (alternate contigs) and in a
+  standalone run on the primary scaffolds. Genome completeness is therefore reported
+  via **Merqury k-mer completeness (99.5%)** and base quality via **QV 58.8** above,
+  which are strong, independent measures. A gene-level BUSCO/compleasm check can be
+  re-attempted separately if required.
 - Full per-file statistics are in `results/stats/`, `results/qc/`.
