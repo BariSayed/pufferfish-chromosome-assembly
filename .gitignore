@@ -1,0 +1,23 @@
+# Large sequencing data & intermediates — never commit
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.fa
+*.fasta
+*.fna
+*.cram
+*.bam
+*.sam
+*.parts/
+work*/
+.nextflow*/
+apptainer_cache/
+test_results/
+*.sif
+*.img
+# keep small text results
+!results/**/*.txt
+!results/**/*.tsv
+!results/**/*.csv
+!results/**/*.png
+!results/**/*.json
