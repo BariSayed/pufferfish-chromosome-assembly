@@ -1,0 +1,6 @@
+Primary chromosome-level assembly (asm_hap1_scaffolds_final) - seqkit stats -a
+num_seqs    88
+sum_len     365,491,741 bp  (365.5 Mb)
+max_len     29,218,041  (largest chromosome)
+N50         16,448,155  (16.45 Mb, chromosome-scale)
+chromosome-scale scaffolds (>=9 Mb): 22   (matches T. ocellatus karyotype n=22)

@@ -5,7 +5,9 @@ vertebrate genome from **PacBio HiFi + Hi-C** reads, built with the
 **[sanger-tol/genomeassembly](https://github.com/sanger-tol/genomeassembly)**
 Nextflow pipeline on an institutional Linux server (Apptainer, no scheduler).
 
-> **Status:** work in progress — see [`docs/STATUS.md`](docs/STATUS.md) for the live checklist.
+> **Result:** chromosome-level — 22 chromosome-scale scaffolds, scaffold N50 16.45 Mb, Merqury QV 58.8. See [`docs/RESULTS.md`](docs/RESULTS.md).
+>
+> **Status:** complete — see [`docs/STATUS.md`](docs/STATUS.md) for the live checklist.
 
 ---
 

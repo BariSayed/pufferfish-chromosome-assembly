@@ -1,0 +1,10 @@
+Merqury k-mer evaluation (PacBio HiFi k=31)
+
+QV (consensus base accuracy):
+  asm.purged (primary)      QV 58.8   (~99.9998% accurate)
+  asm.htigs.all (alternate) QV 60.0
+  both                      QV 59.3
+
+k-mer completeness:
+  primary (purged)          89.71 %
+  primary + alternate       99.51 %
