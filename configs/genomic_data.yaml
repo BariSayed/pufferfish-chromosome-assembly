@@ -1,0 +1,8 @@
+- id: ocellatus
+  platform: pacbio_hifi
+  reads:
+    - /home/sbau/genome_assembly/pufferfish_assembly/03_downsampled/hifi_28x.fastq.gz
+- id: ocellatus
+  platform: illumina_hic
+  reads:
+    - /home/sbau/genome_assembly/pufferfish_assembly/03_downsampled/hic_30x.cram

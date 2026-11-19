@@ -1,0 +1,5 @@
+file	format	type	num_seqs	sum_len	avg_len	approx_coverage(352Mb)
+hifi_35x.fastq.gz	FASTQ	DNA	777271	12479634132	16055.7	35.4x
+hic_R1.fastq.gz	FASTQ	DNA	34977986	5246697900	150.0	(paired)
+hic_R2.fastq.gz	FASTQ	DNA	34977986	5246697900	150.0	~29.8x total
+note						hifi further subsampled to ~28x for RAM safety at run time
