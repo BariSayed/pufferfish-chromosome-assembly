@@ -38,6 +38,20 @@ hifiasm (contigs)
    -> evaluation: assembly stats, BUSCO (actinopterygii_odb10), Hi-C contact map
 ```
 
+## Software and tools
+
+A full table of every tool, its source, GitHub link and role is in
+[`docs/SOFTWARE.md`](docs/SOFTWARE.md). Key components: Nextflow + Apptainer
+(orchestration), hifiasm (contigs), purge_dups, bwa-mem2, YaHS (scaffolding),
+BUSCO, gfastats and seqkit.
+
+## Workflow
+
+![Assembly workflow](docs/images/workflow.png)
+
+The same diagram is available as an interactive Mermaid chart in
+[`docs/WORKFLOW.md`](docs/WORKFLOW.md).
+
 ## Reproduce
 
 See [`docs/METHODS.md`](docs/METHODS.md) for exact commands. In summary:
